@@ -1,0 +1,57 @@
+/* Fond général de l'application */
+.root {
+    -fx-background-color: #f0f0f0; /* Gris clair */
+}
+
+/* Style pour les boutons */
+.button {
+    -fx-background-color: #ffeb3b; /* Jaune clair */
+    -fx-text-fill: #333; /* Texte sombre pour contraste */
+    -fx-font-size: 14px;
+    -fx-padding: 5px 5px;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #fdd835; /* Jaune plus foncé pour hover */
+}
+
+/* Style pour les champs de texte */
+.text-field {
+    -fx-background-color: #ffffff; /* Blanc */
+    -fx-border-color: #cccccc; /* Gris clair pour les bordures */
+    -fx-border-radius: 5px;
+    -fx-padding: 5px;
+}
+
+/* Style pour le tableau */
+.table-view {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+}
+
+/* Style pour les en-têtes de colonne du tableau */
+.table-view .column-header {
+    -fx-background-color: #ffeb3b; /* Jaune clair pour en-tête */
+    -fx-text-fill: #333; /* Texte sombre */
+}
+
+/* Style pour les lignes du tableau */
+.table-view .cell {
+    -fx-text-fill: #333;
+}
+
+/* Style pour l'AnchorPane */
+.anchor-pane {
+    -fx-padding: 20px;
+}
+#totalBooksLabel {
+    -fx-font-weight: bold;
+}
+HBox {
+    spacing: 10;  /* espace entre l'icône et le texte */
+    alignment: center_left;  /* alignement horizontal centré et aligné à gauche */
+}
+
